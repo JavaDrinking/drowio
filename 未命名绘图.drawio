@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T07:10:45.103Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.5" etag="7sU42Z6Nri9dF1Uhgtg5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T07:47:51.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oJIAlmqqc3WFStuFZQNQ" version="21.1.5" type="github">
   <diagram name="第 1 页" id="S8dvEQz45rw4QtraS2be">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mPMEa4XzOgycwGohtWZN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mPMEa4XzOgycwGohtWZN-1" target="mPMEa4XzOgycwGohtWZN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-1" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;;font-size:10.5pt;&quot;&gt;AnnotationConfigApplicationContext&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mPMEa4XzOgycwGohtWZN-4" target="mPMEa4XzOgycwGohtWZN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mPMEa4XzOgycwGohtWZN-4" target="mPMEa4XzOgycwGohtWZN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-4" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;;font-size:10.5pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 10.5pt;&quot;&gt;this.reader = &lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;new &lt;/span&gt;AnnotatedBeanDefinitionReader(&lt;span style=&quot;color:#0033b3;&quot;&gt;this&lt;/span&gt;);&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="430" width="355" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-7" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;;font-size:10.5pt;&quot;&gt;this.scanner = &lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;new &lt;/span&gt;ClassPathBeanDefinitionScanner(&lt;span style=&quot;color:#0033b3;&quot;&gt;this&lt;/span&gt;)&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="340" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mPMEa4XzOgycwGohtWZN-9" target="mPMEa4XzOgycwGohtWZN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-9" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Courier New&#39;;font-size:10.5pt;&quot;&gt;getOrCreateEnvironment(registry)&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="452.5" width="325" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-11" value="初始化reader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-12" value="初始化scanner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="555" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mPMEa4XzOgycwGohtWZN-13" value="&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;registerAnnotationConfigProcessors&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="538.75" y="585" width="307.5" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
